@@ -18,7 +18,7 @@
     name on one Classifier as illegal, even though real UML permits
     Operation overloading distinguished by parameter-list signature (sec
     9.4.3) -- v1 does not compare signatures."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [clojure.set :as set]
             [kotoba.dsl.problem :as problem]
             [uml.model :as m]))
