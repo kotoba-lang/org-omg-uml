@@ -44,7 +44,7 @@
 
   Round-trip guarantee (for well-formed data, produced by this library):
     (= model (parse-doc (emit-doc model)))"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 ;; --- generic parsed-XML element accessors (same shape xmile.xml uses) ---
 
