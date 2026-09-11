@@ -212,7 +212,7 @@ rationale on each):
 ## Test
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
 
 ## License
